@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
     server: {
       host: "::",
       port: 8080,
+      base: "/akoredeademola-portfolio/",
     },
     plugins: [
       react(),
