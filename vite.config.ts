@@ -6,10 +6,10 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
+    base: "/akoredeademola-portfolio/", // ✅ move this outside 'server'
     server: {
       host: "::",
       port: 8080,
-      base: "/akoredeademola-portfolio/",
     },
     plugins: [
       react(),
